@@ -1,4 +1,3 @@
-import org.example.RenewableList;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -16,6 +15,9 @@ public class RenewableListTest {
         list.add("E");
         list.add("F");
         Assert.assertEquals(5, list.size());
+
+
+        Assert.assertEquals("F", list.get());
     }
 
     @Test
